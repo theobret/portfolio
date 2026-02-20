@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets | Théo Bret</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo-link">
+                <div class="logo">>_ THÉO<span>.</span>BRET</div>
+            </a>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="stages.html">Stages</a></li>
+                <li><a href="projets.html" class="active">Projets</a></li>
+                <li><a href="veille.html">Veille</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Mes Réalisations <span>Techniques</span></h1>
+            <p class="subtitle">Documentations et projets d'infrastructure réseaux et systèmes.</p>
+        </div>
+    </header>
+
+    <section class="container">
+        <div class="projects-grid">
+            
+            <article class="project-card">
+                <div class="project-content">
+                    <span class="tag">Sécurité • SIEM</span>
+                    <h3>Déploiement de Wazuh</h3>
+                    <p>Installation et configuration d'une solution de détection d'intrusion et de surveillance de l'intégrité des fichiers (FIM).</p>
+                    <div class="tech-stack">
+                        <span>Linux</span>
+                        <span>SIEM</span>
+                        <span>Security</span>
+                    </div>
+                </div>
+                <a href="docs/doc-wazuh.pdf" target="_blank" class="btn-doc-project">Consulter la doc</a>
+            </article>
+
+            <article class="project-card">
+                <div class="project-content">
+                    <span class="tag">Administration • Réseau</span>
+                    <h3>Sécurisation des accès SSH</h3>
+                    <p>Mise en place de bonnes pratiques de sécurité pour l'administration à distance : authentification par clés, changement de port et configuration du démon.</p>
+                    <div class="tech-stack">
+                        <span>SSH</span>
+                        <span>OpenSSH</span>
+                        <span>Linux</span>
+                    </div>
+                </div>
+                <a href="docs/doc-ssh.pdf" target="_blank" class="btn-doc-project">Consulter la doc</a>
+            </article>
+
+            <article class="project-card">
+                <div class="project-content">
+                    <span class="tag">Services Web</span>
+                    <h3>Serveur Web Apache</h3>
+                    <p>Déploiement d'un serveur HTTP Apache sous Debian. Configuration de Virtual Hosts et sécurisation des échanges avec SSL/TLS.</p>
+                    <div class="tech-stack">
+                        <span>Apache2</span>
+                        <span>Debian</span>
+                        <span>SSL</span>
+                    </div>
+                </div>
+                <a href="docs/doc-apache.pdf" target="_blank" class="btn-doc-project">Consulter la doc</a>
+            </article>
+
+            
+<article class="project-card">
+    <div class="project-content">
+        <span class="tag">Supervision • Monitoring</span>
+        <h3>Supervision avec Zabbix</h3>
+        <p>Mise en place d'une plateforme de monitoring pour surveiller l'état des serveurs et des services réseau. Configuration d'alertes et de tableaux de bord.</p>
+        <div class="tech-stack">
+            <span>Zabbix</span>
+            <span>SNMP</span>
+            <span>Agent-Based</span>
+        </div>
+    </div>
+    <a href="docs/doc-zabbix.pdf" target="_blank" class="btn-doc-project">Consulter la doc</a>
+</article>
+        </div>
+    </section>
+
+    
+
+    <footer>
+        <p>&copy; 2026 Théo Bret - Portfolio SISR</p>
+    </footer>
+
+</body>
+</html>

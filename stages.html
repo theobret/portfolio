@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stages | Théo Bret</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+    <div class="container">
+        <a href="index.html" class="logo-link">
+            <div class="logo">>_ THÉO<span>.</span>BRET</div>
+        </a>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="stages.html">Stages</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a href="veille.html">Veille</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <div class="banner-container">
+        <img src="atixis.webp" alt="Bannière Atixis" class="banner-img">
+        <div class="banner-overlay">
+            <div class="container">
+                <h1>Stage chez <span>Atixis</span></h1>
+                <p class="subtitle-banner">Conseil en ingénierie & Management de projets</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="container stage-content">
+        <div class="company-card">
+            <div class="company-info-text">
+                <h2 class="title-accent">L'entreprise</h2>
+                <p>Atixis accompagne ses clients dans la conception, le pilotage et la réalisation de projets complexes dans les secteurs du bâtiment, de l’industrie et des systèmes d’information.</p>
+                <p>Mon immersion au sein du service informatique m'a permis de participer activement à l'administration des systèmes et au support technique en environnement professionnel.</p>
+            </div>
+            <div class="company-details-list">
+                <div class="detail-row"><span>Siège :</span> Tour Europlaza, Courbevoie</div>
+                <div class="detail-row"><span>Effectif :</span> 50-99 salariés</div>
+                <div class="detail-row"><span>Secteur :</span> Conseil en ingénierie</div>
+                <div class="detail-row"><span>Année :</span> 2025</div>
+            </div>
+        </div>
+
+        <h2 class="section-title">Missions Techniques</h2>
+        <div class="mission-list">
+            
+            <article class="mission-item">
+                <div class="mission-header">
+                    <h3>Déploiement de GPO (Windows Server 2022)</h3>
+                    <span class="tech-label">AD • GPO • RDP</span>
+                </div>
+                <div class="mission-body">
+                    <p>Dans le cadre de l'intégration de l'entreprise <strong>Terao</strong> (rachetée par Atixis), j'ai utilisé les stratégies de groupe pour optimiser l'environnement de travail :</p>
+                    <ul>
+                        <li>Automatisation de l'installation de logiciels métiers sur l'ensemble des postes clients.</li>
+                        <li>Déploiement de raccourcis RDP personnalisés sur les bureaux utilisateurs pour faciliter la connexion aux workstations distantes.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="mission-item">
+                <div class="mission-header">
+                    <h3>Maintenance et Upgrade Matériel</h3>
+                    <span class="tech-label">Hardware • SSD • RAM</span>
+                </div>
+                <div class="mission-body">
+                    <p>Interventions physiques sur le parc informatique pour accroître la longévité et les performances des machines :</p>
+                    <ul>
+                        <li>Installation de barrettes de RAM et migration vers des disques SSD.</li>
+                        <li>Gestion complète du cycle : contrôle de compatibilité matériel, installation physique et tests de stabilité post-installation.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="mission-item">
+                <div class="mission-header">
+                    <h3>Synchronisation de l'Annuaire Téléphonique</h3>
+                    <span class="tech-label">Outlook • Exchange • Data</span>
+                </div>
+                <div class="mission-body">
+                    <p>Mise en place d'une solution centralisée pour la gestion des contacts mobiles de l'entreprise :</p>
+                    <ul>
+                        <li>Création et configuration d'une boîte mail partagée sous Outlook.</li>
+                        <li>Importation et structuration des contacts via des fichiers Excel pour assurer une synchronisation automatique sur tous les téléphones d'entreprise.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="mission-item">
+                <div class="mission-header">
+                    <h3>Support Utilisateur Niveaux 1 & 2</h3>
+                    <span class="tech-label">Jira Service Management</span>
+                </div>
+                <div class="mission-body">
+                    <p>Interlocuteur technique direct des collaborateurs pour la résolution d'incidents :</p>
+                    <ul>
+                        <li>Prise en charge des tickets via l'outil <strong>Jira</strong> (diagnostic de pannes, helpdesk).</li>
+                        <li>Résolution de problématiques variées : dysfonctionnements logiciels, configurations systèmes et problèmes de connectivité réseau.</li>
+                    </ul>
+                </div>
+            </article>
+
+        </div>
+
+        <section class="container">
+    <h2 class="section-title">Documentations réalisées en entreprise</h2>
+    <div class="projects-grid grid-3">
+        
+        <article class="project-card">
+            <div class="project-content">
+                <span class="tag">Automatisation</span>
+                <h3>Installation de logiciels via GPO</h3>
+                <p>Procédure technique détaillant le déploiement de packages MSI.</p>
+                <div class="tech-stack"><span>AD</span><span>GPO</span></div>
+            </div>
+            <a href="docs/doc-gpo-logiciels.pdf" target="_blank" class="btn-doc-project">Consulter</a>
+        </article>
+
+        <article class="project-card">
+            <div class="project-content">
+                <span class="tag">Accès distant</span>
+                <h3>Raccourcis RDP par GPO</h3>
+                <p>Diffusion de fichiers de configuration RDP sur le bureau.</p>
+                <div class="tech-stack"><span>RDP</span><span>GPO</span></div>
+            </div>
+            <a href="docs/doc-gpo-rdp.pdf" target="_blank" class="btn-doc-project">Consulter</a>
+        </article>
+
+        <article class="project-card">
+            <div class="project-content">
+                <span class="tag">Messagerie</span>
+                <h3>Synchronisation Contacts Outlook</h3>
+                <p>Import de données Excel vers boîte mail partagée.</p>
+                <div class="tech-stack"><span>Outlook</span><span>Exchange</span></div>
+            </div>
+            <a href="docs/doc-outlook-contacts.pdf" target="_blank" class="btn-doc-project">Consulter</a>
+        </article>
+
+    </div>
+</section>
