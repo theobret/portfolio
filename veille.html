@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille Technologique | Théo Bret</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo-link">
+                <div class="logo">>_ THÉO<span>.</span>BRET</div>
+            </a>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="stages.html">Stages</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="veille.html" class="active">Veille</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Veille <span>Technologique</span></h1>
+            <p class="subtitle">Sujet : L'évolution du Zero Trust Network Access (ZTNA) en 2025-2026.</p>
+        </div>
+    </header>
+
+    <section class="container">
+        <div class="bio-content">
+            <h2 class="section-title">Qu'est-ce que le ZTNA ?</h2>
+            <p>Le <strong>ZTNA</strong> (Zero Trust Network Access) est un modèle de sécurité qui repose sur le principe : <em>"Ne jamais faire confiance, toujours vérifier"</em>. Contrairement aux VPN classiques qui ouvrent un accès large au réseau, le ZTNA n'autorise l'accès qu'à des applications spécifiques selon l'identité et le contexte de l'utilisateur.</p>
+        </div>
+
+        <h2 class="section-title">Ma méthodologie de veille</h2>
+        <div class="projects-grid">
+            
+            <a href="#google-alerts" class="project-card clickable">
+                <div class="project-content">
+                    <span class="tag">Automatisation</span>
+                    <h3>Google Alerts</h3>
+                    <p>Surveillance automatisée via mots-clés stratégiques pour recevoir les actualités ZTNA par mail. <span>En savoir plus →</span></p>
+                </div>
+            </a>
+
+            <a href="#sources-officielles" class="project-card clickable">
+                <div class="project-content">
+                    <span class="tag">Sécurité</span>
+                    <h3>Sources Officielles & Experts</h3>
+                    <p>Suivi des bulletins de l'ANSSI, du CERT-FR et des rapports de cabinets comme Gartner. <span>En savoir plus →</span></p>
+                </div>
+            </a>
+        </div>
+
+        <div class="veille-details">
+            
+            <div id="google-alerts" class="detail-block">
+                <h2 class="section-title">Focus : Flux via Google Alerts</h2>
+                <article class="mission-item">
+                    <div class="mission-header">
+                        <h3>Automatisation du flux d'information</h3>
+                        <span class="tech-label">Outil : Google Alerts</span>
+                    </div>
+                    <div class="mission-body">
+                        <p>Plutôt que d'utiliser un agrégateur classique, j'ai configuré <strong>Google Alerts</strong> pour créer un flux de veille personnalisé directement dans ma boîte mail. Cela me permet de filtrer les publications les plus pertinentes de 2025 et 2026.</p>
+                        <p>Mes requêtes de surveillance incluent :</p>
+                        <ul>
+                            <li><code>"ZTNA" + "Zero Trust Architecture"</code></li>
+                            <li><code>"ZTNA" vs "VPN" + 2026</code></li>
+                            <li><code>"SASE" + "Cybersecurity trends"</code></li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+
+            <div id="sources-officielles" class="detail-block">
+                <h2 class="section-title">Focus : Sources Officielles & Experts</h2>
+                <article class="mission-item">
+                    <div class="mission-header">
+                        <h3>Expertise et Réglementation</h3>
+                        <span class="tech-label">ANSSI / CERT-FR</span>
+                    </div>
+                    <div class="mission-body">
+                        <p>L'ANSSI reste ma référence pour les recommandations de sécurité. En complément des alertes Google, je consulte manuellement :</p>
+                        <ul>
+                            <li><strong>Le CERT-FR :</strong> Pour les alertes sur les vulnérabilités des solutions ZTNA/VPN.</li>
+                            <li><strong>Gartner / Forrester :</strong> Pour comprendre le positionnement des leaders du marché (Cloudflare, Zscaler, Fortinet).</li>
+                            <li><strong>Le Monde Informatique :</strong> Pour les études de cas d'entreprises passant au Zero Trust en 2025.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+
+        <h2 class="section-title">Actualités ZTNA (2025-2026)</h2>
+        <div class="mission-list">
+            <article class="mission-item">
+                <div class="mission-header">
+                    <h3>L'IA comportementale intégrée au ZTNA</h3>
+                    <span class="tech-label">Veille Janvier 2026</span>
+                </div>
+                <div class="mission-body">
+                    <p>Analyse de la montée en puissance de l'IA pour le "Risk Scoring" : les solutions ZTNA analysent désormais en temps réel si le comportement de l'utilisateur correspond à ses habitudes (horaires, volume de données, localisation) pour maintenir ou couper l'accès.</p>
+                </div>
+            </article>
+            
+            <article class="mission-item">
+                <div class="mission-header">
+                    <h3>Convergence SASE et Micro-segmentation</h3>
+                    <span class="tech-label">Veille Septembre 2025</span>
+                </div>
+                <div class="mission-body">
+                    <p>Le ZTNA devient la brique centrale des architectures SASE. L'accent est mis sur la micro-segmentation logicielle, permettant d'isoler chaque ressource critique du reste du réseau interne.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Théo Bret - Portfolio SISR</p>
+    </footer>
+
+</body>
+</html>

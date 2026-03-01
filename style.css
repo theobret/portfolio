@@ -346,3 +346,46 @@ footer { padding: 4rem 0; text-align: center; color: var(--text-muted); font-siz
         grid-template-columns: 1fr !important;
     }
 }
+
+/* VEILLE
+
+/* Rend la carte cliquable visuellement */
+.project-card.clickable {
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid var(--border-blue);
+}
+
+.project-card.clickable:hover {
+    border-color: var(--accent-blue);
+    background: rgba(0, 122, 255, 0.05);
+}
+
+.project-card.clickable span {
+    display: block;
+    margin-top: 1rem;
+    color: var(--accent-blue);
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* Style pour les blocs de détails */
+.veille-details {
+    margin-top: 4rem;
+}
+
+.detail-block {
+    padding-top: 2rem;
+    display: none; /* Cache par défaut */
+}
+
+/* Magie du CSS : affiche le bloc quand l'ancre est active */
+.detail-block:target {
+    display: block;
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
