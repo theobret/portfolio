@@ -26,158 +26,107 @@
     <header class="page-header">
         <div class="container">
             <h1>Veille <span>Technologique</span></h1>
-            <p class="subtitle">Sujet : Le Modèle Zero Trust — Architecture de sécurité réseau pour un monde sans périmètre</p>
+            <p class="subtitle">Le Modèle Zero Trust : Architecture de sécurité sans périmètre</p>
         </div>
     </header>
 
     <section class="container">
-        <!-- 1. Introduction & Contexte -->
-        <div class="bio-content">
-            <h2 class="section-title">Introduction et contexte</h2>
-            <p>Le modèle <strong>Zero Trust</strong> (confiance zéro) est un paradigme de cybersécurité qui remet fondamentalement en question l'architecture traditionnelle des réseaux d'entreprise. Là où la sécurité classique reposait sur un « périmètre de confiance », le Zero Trust part d'un postulat différent : <strong>« Ne jamais faire confiance, toujours vérifier »</strong>.</p>
-            <p>Aucun utilisateur, aucun appareil ni aucune application n'est considéré comme fiable par défaut, même s'il se trouve à l'intérieur du réseau de l'entreprise. Ce sujet est crucial en 2026 face à la généralisation du télétravail, l'adoption massive du Cloud et la recrudescence des cyberattaques ciblées.</p>
+        <!-- 1. Introduction Compacte -->
+        <div class="bio-content" style="margin-bottom: 2rem;">
+            <p>Le <strong>Zero Trust</strong> remplace le "périmètre de confiance" par un postulat radical : <strong>« Ne jamais faire confiance, toujours vérifier »</strong>. Aucun utilisateur ni appareil n'est fiable par défaut.</p>
         </div>
 
-        <!-- 2. Méthodologie interactive -->
-        <h2 class="section-title">Ma méthodologie de veille</h2>
-        <div class="projects-grid">
-            <a href="#google-alerts" class="project-card clickable">
-                <div class="project-content">
-                    <span class="tag">Automatisation</span>
-                    <h3>Google Alerts</h3>
-                    <p>Surveillance par mots-clés sur le ZTNA, la directive NIS2 et les recommandations de l'ANSSI. <span>Détails de configuration →</span></p>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: start;">
+            
+            <!-- COLONNE GAUCHE : Méthodologie & Sources -->
+            <div>
+                <h3 class="title-accent" style="font-size: 1rem; margin-bottom: 1rem;">Méthodologie & Flux</h3>
+                <div class="projects-grid" style="grid-template-columns: 1fr; gap: 1rem;">
+                    <a href="#google-alerts" class="project-card clickable" style="padding: 1.2rem;">
+                        <div class="project-content">
+                            <span class="tag">Automatique</span>
+                            <h4 style="margin: 0.5rem 0;">Google Alerts</h4>
+                            <p style="font-size: 0.85rem; margin-bottom: 0;">Mots-clés : ANSSI, ZTNA, NIS2.</p>
+                        </div>
+                    </a>
+                    <a href="#sources-officielles" class="project-card clickable" style="padding: 1.2rem;">
+                        <div class="project-content">
+                            <span class="tag">Référence</span>
+                            <h4 style="margin: 0.5rem 0;">Sources Officielles</h4>
+                            <p style="font-size: 0.85rem; margin-bottom: 0;">NIST SP 800-207, Guides ANSSI.</p>
+                        </div>
+                    </a>
                 </div>
-            </a>
 
-            <a href="#sources-officielles" class="project-card clickable">
-                <div class="project-content">
-                    <span class="tag">Expertise</span>
-                    <h3>Sources & Références</h3>
-                    <p>Suivi des publications du NIST (norme SP 800-207) et des guides officiels de l'ANSSI. <span>Consulter mes sources →</span></p>
+                <div class="veille-details" style="margin-top: 1.5rem;">
+                    <div id="google-alerts" class="detail-block">
+                        <div class="mission-item" style="padding: 1rem; font-size: 0.85rem;">
+                            <strong>Requêtes :</strong> "ANSSI" + "Zero Trust", "Directive NIS2".
+                        </div>
+                    </div>
+                    <div id="sources-officielles" class="detail-block">
+                        <div class="mission-item" style="padding: 1rem; font-size: 0.85rem;">
+                            <strong>Standards :</strong> Guide ANSSI (2025), Forrester (Kindervag).
+                        </div>
+                    </div>
                 </div>
-            </a>
-        </div>
-
-        <!-- Blocs de détails dynamiques -->
-        <div class="veille-details">
-            <div id="google-alerts" class="detail-block">
-                <h2 class="section-title">Focus : Flux via Google Alerts</h2>
-                <article class="mission-item">
-                    <div class="mission-header">
-                        <h3>Configuration des alertes (2025-2026)</h3>
-                        <span class="tech-label">Outil : Google Alerts</span>
-                    </div>
-                    <div class="mission-body">
-                        <p>J'ai configuré un système d'alertes automatisées pour recevoir les dernières actualités sur des termes stratégiques :</p>
-                        <ul>
-                            <li><strong>"ANSSI" + "Zero Trust" :</strong> Pour suivre l'application du guide publié en juin 2025.</li>
-                            <li><strong>"Directive NIS2" + "segmentation réseau" :</strong> Pour l'aspect réglementaire européen.</li>
-                            <li><strong>"ZTNA" + "Cloud Security" :</strong> Pour les évolutions techniques des solutions du marché.</li>
-                        </ul>
-                    </div>
-                </article>
             </div>
 
-            <div id="sources-officielles" class="detail-block">
-                <h2 class="section-title">Focus : Références Institutionnelles</h2>
-                <article class="mission-item">
-                    <div class="mission-header">
-                        <h3>Normes et Guides officiels</h3>
-                        <span class="tech-label">ANSSI / NIST</span>
+            <!-- COLONNE DROITE : Les 5 Piliers (Compact) -->
+            <div>
+                <h3 class="title-accent" style="font-size: 1rem; margin-bottom: 1rem;">Les 5 Piliers Fondamentaux</h3>
+                <div class="mission-list" style="gap: 0.8rem;">
+                    <div class="mission-item" style="padding: 1rem;">
+                        <h4 style="font-size: 0.95rem;">1. Identité & Moindre privilège</h4>
+                        <p style="font-size: 0.8rem; color: var(--text-muted); margin: 0;">Authentification MFA et accès restreint (PoLP).</p>
                     </div>
-                    <div class="mission-body">
-                        <p>Ma veille repose sur des socles théoriques et réglementaires solides :</p>
-                        <ul>
-                            <li><strong>ANSSI :</strong> Guide « Modèle Zero Trust — Les Fondamentaux » (juin 2025).</li>
-                            <li><strong>NIST SP 800-207 :</strong> La norme internationale définissant l'architecture Zero Trust.</li>
-                            <li><strong>Forrester Research :</strong> Les travaux de John Kindervag, fondateur du concept.</li>
-                        </ul>
+                    <div class="mission-item" style="padding: 1rem;">
+                        <h4 style="font-size: 0.95rem;">2. Microsegmentation</h4>
+                        <p style="font-size: 0.8rem; color: var(--text-muted); margin: 0;">Zones isolées pour bloquer les mouvements latéraux.</p>
                     </div>
-                </article>
+                    <div class="mission-item" style="padding: 1rem;">
+                        <h4 style="font-size: 0.95rem;">3. Accès Contextuel</h4>
+                        <p style="font-size: 0.8rem; color: var(--text-muted); margin: 0;">Vérification du lieu, de l'heure et de l'appareil.</p>
+                    </div>
+                    <div class="mission-item" style="padding: 1rem;">
+                        <h4 style="font-size: 0.95rem;">4. Surveillance Continue</h4>
+                        <p style="font-size: 0.8rem; color: var(--text-muted); margin: 0;">Analyse SIEM/XDR en temps réel.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <!-- 3. Actualités ZTNA -->
-        <h2 class="section-title">Actualités ZTNA (2025-2026)</h2>
-        <div class="mission-list" style="margin-bottom: 4rem;">
-            <!-- Carte ANSSI -->
-            <article class="mission-item" style="margin-bottom: 1.5rem;">
-                <div class="mission-header">
-                    <h3>Publication des fondamentaux Zero Trust par l'ANSSI</h3>
-                    <span class="tech-label">Juin 2025</span>
+        <hr style="border: 0; border-top: 1px solid var(--border-blue); margin: 3rem 0;">
+
+        <!-- 3. Actualités (Cartes horizontales plus petites) -->
+        <h3 class="title-accent" style="font-size: 1rem; margin-bottom: 1.5rem;">Actualités & Médias (2025-2026)</h3>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+            <article class="mission-item" style="display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <span class="tech-label">ANSSI - Juin 2025</span>
+                    <h4 style="margin: 0.5rem 0;">Guide des Fondamentaux</h4>
+                    <p style="font-size: 0.85rem;">Document de référence pour les administrations françaises.</p>
                 </div>
-                <div class="mission-body">
-                    <p>L'ANSSI a publié un guide de référence détaillant la mise en œuvre pratique du modèle Zero Trust pour les organisations françaises. Ce document est devenu le socle de ma veille technique.</p>
-                    <a href="https://messervices.cyber.gouv.fr/documents-guides/anssi-fondamentaux-zero-trust-v1.0.pdf" target="_blank" class="btn-doc" style="margin-top: 15px; display: inline-block; text-decoration: none; padding: 5px 15px; border: 1px solid var(--accent-blue); border-radius: 4px; color: var(--accent-blue); font-size: 0.8rem;">Consulter le PDF ANSSI</a>
-                </div>
+                <a href="https://messervices.cyber.gouv.fr/documents-guides/anssi-fondamentaux-zero-trust-v1.0.pdf" target="_blank" class="btn-doc" style="width: fit-content; margin-top: 1rem; font-size: 0.75rem;">Consulter le PDF</a>
             </article>
 
-            <!-- Carte Vidéo YouTube -->
-            <article class="mission-item">
-                <div class="mission-header">
-                    <h3>Comprendre le ZTNA en 6 minutes</h3>
-                    <span class="tech-label">Vidéo Technologique</span>
+            <article class="mission-item" style="display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <span class="tech-label">Vidéo - 6 min</span>
+                    <h4 style="margin: 0.5rem 0;">Le ZTNA expliqué</h4>
+                    <p style="font-size: 0.85rem;">Vulgarisation des concepts identité vs périmètre.</p>
                 </div>
-                <div class="mission-body">
-                    <p>Vulgarisation efficace des concepts de "Zero Trust Network Access". Cette ressource permet de visualiser rapidement la différence entre un accès périmétrique classique et une architecture centrée sur l'identité.</p>
-                    <a href="https://www.youtube.com/watch?v=WzXldUDJcak&t=228s" target="_blank" class="btn-doc" style="margin-top: 15px; display: inline-block; text-decoration: none; padding: 5px 15px; border: 1px solid var(--accent-blue); border-radius: 4px; color: var(--accent-blue); font-size: 0.8rem;">Voir la vidéo sur YouTube</a>
-                </div>
+                <a href="https://www.youtube.com/watch?v=WzXldUDJcak&t=228s" target="_blank" class="btn-doc" style="width: fit-content; margin-top: 1rem; font-size: 0.75rem;">Voir la vidéo</a>
             </article>
         </div>
 
-        <!-- 4. Contenu de fond : Les 5 Piliers -->
-        <h2 class="section-title">Les principes fondamentaux</h2>
-        <div class="mission-list">
-            <article class="mission-item">
-                <div class="mission-header">
-                    <h3>Vérification des identités & Moindre privilège</h3>
-                    <span class="tech-label">IAM / MFA</span>
-                </div>
-                <div class="mission-body">
-                    <p>Chaque utilisateur doit prouver son identité (MFA) et ne dispose que des droits strictement nécessaires à ses missions (PoLP).</p>
-                </div>
-            </article>
-
-            <article class="mission-item">
-                <div class="mission-header">
-                    <h3>Microsegmentation du réseau</h3>
-                    <span class="tech-label">VLAN / SDN</span>
-                </div>
-                <div class="mission-body">
-                    <p>Découpage du réseau en zones isolées pour limiter les mouvements latéraux en cas de compromission d'un poste.</p>
-                </div>
-            </article>
-
-            <article class="mission-item">
-                <div class="mission-header">
-                    <h3>Accès conditionnel basé sur le contexte</h3>
-                    <span class="tech-label">Contexte</span>
-                </div>
-                <div class="mission-body">
-                    <p>L'autorisation prend en compte l'identité, l'état de l'appareil, la localisation et l'heure de la requête.</p>
-                </div>
-            </article>
-
-            <article class="mission-item">
-                <div class="mission-header">
-                    <h3>Surveillance et détection continues</h3>
-                    <span class="tech-label">SIEM / XDR</span>
-                </div>
-                <div class="mission-body">
-                    <p>Analyse en temps réel de tous les flux pour détecter les comportements anormaux via des solutions SIEM ou XDR.</p>
-                </div>
-            </article>
+        <!-- 4. Chronologie Express -->
+        <div class="company-details-list" style="margin-top: 3rem; display: flex; justify-content: space-between; padding: 1rem; font-size: 0.8rem;">
+            <div><strong>2010 :</strong> Théorisation</div>
+            <div><strong>2020 :</strong> Norme NIST</div>
+            <div><strong>2025 :</strong> Guide ANSSI / NIS2</div>
+            <div><strong>2026 :</strong> Standard par défaut</div>
         </div>
-
-        <!-- 5. Chronologie -->
-        <h2 class="section-title">Repères chronologiques</h2>
-        <div class="company-details-list">
-            <div class="detail-row"><span>2010</span> Théorisation par John Kindervag (Forrester Research).</div>
-            <div class="detail-row"><span>2020</span> Publication de la norme NIST SP 800-207 et accélération liée au COVID-19.</div>
-            <div class="detail-row"><span>2025</span> Publication du guide ANSSI et mise en conformité NIS2.</div>
-            <div class="detail-row"><span>2026</span> Le Zero Trust devient le standard de référence par défaut pour les SI matures.</div>
-        </div>
-
     </section>
 
     <footer>
